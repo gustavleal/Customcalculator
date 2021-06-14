@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    background-image: url('https://cdn.discordapp.com/attachments/468228661418524673/823877228315541544/unknown.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: black;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+  *:focus {
+    outline: 0 !important;
+  }
+
+
+.espaçamento {
+  margin: 0 auto;
+  height:40px;
+}
+
+.calculadora {
+  margin: 0 auto;
+  width: 294px;
+  background-color: black;
+  border: 1px solid #ddd;
+}
+
+.tela {
+  width: 279px;
+  border: 0;
+  border-radius: 1px;
+  height: 60px;
+  padding-right: 15px;
+  padding-top: 10px;
+  background-color: #202020;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 2.5rem;
+  color: white;
+  overflow-x: auto;
+  transition: all .2s ease-in-out;
+}
+
+.contas div {
+  color: white;
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 4px 10px 0;
+  cursor: pointer;
+  background-color: #202020;
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.painel-numeros {
+  display: inline-block;
+}
+
+.numeros div {
+  color: white;
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 4px 10px 0;
+  cursor: pointer;
+  background-color: #202020;
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.igual {
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  padding: 102px 10px;
+  margin: 10px 6px 10px 0;
+  vertical-align: top;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #202020;
+  transition: all .2s ease-in-out;
+}
