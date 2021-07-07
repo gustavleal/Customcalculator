@@ -102,4 +102,4 @@ resultado.addEventListener("click", function() {
 // adiconando evento de clique no botão limpar
 limpar.addEventListener("click", function() {
   input.innerHTML = "";
-}) 
+})
